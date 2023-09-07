@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-size: large;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+      }
+      div {
+        padding: 10px;
+      }
+      h1 {
+        padding: 0px 10px;
+        font-size: xx-large;
+      }
+      input {
+        border: gray 2px solid;
+        border-radius: 3px;
+      }
+      textarea {
+        border: gray 2px solid;
+      }
+      .button {
+        border: none;
+        padding: 10px 20px;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Registration Form</h1>
+      <div>
+        <form
+          action=""
+          method=""
+          name="registration form"
+          style="border: 5px solid gray; display: inline-block; padding: 20px"
+        >
+          <div>
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="" />
+          </div>
+          <div>
+            <label for="email">Eamil :</label>
+            <input type="email" name="email" id="" />
+          </div>
+          <div>
+            <label for="password">password :</label>
+            <input type="password" name="password" id="" />
+          </div>
+          <div>
+            <label for="phone">Mobile Number :</label>
+            <input type="tel" name="phone" id="" />
+          </div>
+          <div>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="" value="male" />Male
+            <input type="radio" name="gender" id="" value="female" />Female
+            <input type="radio" name="gender" id="" value="other" />Other
+          </div>
+          <div>
+            Language :
+            <select name="language" id="">
+              <option value="tamil">Tamil</option>
+              <option value="english">English</option>
+              <option value="kanadam">kanadam</option>
+              <option value="malayalam">Malayalam</option>
+              <option value="telugu">telugu</option>
+            </select>
+          </div>
+          <div>
+            <label for="zip code">zip code :</label>
+            <input type="tel" maxlength="6" name="zip code" id="" />
+          </div>
+          <div>
+            <label for="address">Adress :</label>
+            <textarea name="adress" id="" cols="30" rows="3"></textarea>
+          </div>
+          <input type="submit" value="SUBMIT" class="button" />
+          <input type="reset" class="button" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
